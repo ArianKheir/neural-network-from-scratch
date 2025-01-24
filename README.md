@@ -1,6 +1,6 @@
 # Neural Network Implementation for MNIST Classification
 
-This project implements a neural network to classify the MNIST dataset (handwritten digits). The code is written in Python and organized in a Jupyter Notebook for easy understanding and execution. Each part of the code is thoroughly explained with comments above it to guide you through the logic and implementation.
+This project implements a neural network to classify the MNIST dataset (handwritten digits) without using any premade models or libraries like pytorch. The code is written in Python and organized in a Jupyter Notebook for easy understanding and execution. Each part of the code is thoroughly explained with comments above it to guide you through the logic and implementation.
 
 ---
 
@@ -22,6 +22,7 @@ Install them using:
 ```bash
 pip install numpy matplotlib notebook
 ```
+---
 ### 3. Run the Jupyter Notebook
 1. Open a terminal or command prompt.
 2. Navigate to the folder where the notebook and the MNIST dataset are located.
@@ -30,7 +31,7 @@ pip install numpy matplotlib notebook
 jupyter notebook
 ```
 4. Open neural network.ipynb in your browser.
-   
+---
 ## How to Use the Code
 The notebook is divided into several sections, and each section is explained with comments above the code for better understanding. Here's the structure of the notebook:
 1. Data Loading and Preprocessing
@@ -51,6 +52,7 @@ The notebook is divided into several sections, and each section is explained wit
 4. Testing the Model
    - The `test_model` function evaluates the trained network on the test data.
    - Accuracy is printed as a percentage
+---
 ## Features of the Code
 1. Step-by-Step Implementation:
    - The notebook breaks down the neural network training process, including gradient descent, backpropagation, and parameter updates.
@@ -60,6 +62,7 @@ The notebook is divided into several sections, and each section is explained wit
    - All key hyperparameters(e.g. learning rate, epochs, mini-batch size) are adjustable for experimentation.
 4. Detailed Explanations:
    - Every part of the code includes comments and explanations to help beginners understand the concepts behind the implementation.
+---
 ## Project Directory Structure
 ``` graphql
 project_folder/
@@ -67,9 +70,16 @@ project_folder/
 ├── neural network.ipynb     # Jupyter Notebook with neural network implementation
 └── README.md         # This file
 ```
+---
 ## How to Contribute
 If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
+
+---
 ## Acknowledgments
 This project uses the MNIST dataset, a widely recognized dataset for handwritten digit recognition. Thanks to Yann LeCun and his collaborators for making it available.
+
+---
 ## License
 This project is open source and available under the MIT License.
+
+---
