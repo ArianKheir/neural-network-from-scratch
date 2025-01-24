@@ -80,6 +80,6 @@ This project uses the MNIST dataset, a widely recognized dataset for handwritten
 
 ---
 ## License
-This project is open source and available under the MIT License.
+This project is open source and available for every one
 
 ---
